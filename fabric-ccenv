@@ -1,4 +1,0 @@
-git clone git@github.com:BarlowWa/docker-images.gitmkdir -vp docker-images/fabric-ccenv tee docker-images/fabric-ccenv/Dockerfile  <<'EOF'
-FROM docker.io/hyperledger/fabric-orderer:2.4.7
-LABEL MAINTAINER=master@BarlowWa.top BUILDTYPE=Aliyun
-EOFgit add . && git commit -m "fabric-orderer" && git push
